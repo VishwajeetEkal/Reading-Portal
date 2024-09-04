@@ -1,0 +1,60 @@
+.browse-books-page {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* This adds space between your filters and books section */
+  padding: 20px;
+}
+
+.filters-section {
+  flex-basis: 10%; /* This sets the width of your filters section to 20% of the parent container */
+  min-width: 150px; /* This ensures that the filter section does not get too narrow */
+}
+
+.books-section {
+  flex-grow: 1; /* This allows the books section to grow and fill the remaining space */
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* This adds space between each filter input */
+}
+
+.filter-label {
+  margin-bottom: 5px; /* This adds a little space between the label and the input */
+}
+
+.filter-input,
+.filter-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* This rounds the corners of the input fields */
+}
+
+.searchbar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.books-header {
+  margin-bottom: 20px; /* Adds some space below the header */
+}
+
+/*Add some responsive design */
+@media (max-width: 768px) {
+  .browse-books-page {
+    flex-direction: column;
+  }
+
+  .filters-section {
+    width: 100%; /* Filters take full width on smaller screens */
+    margin-bottom: 20px; /* Adds space between filters and books on small screens */
+  }
+
+  .books-section {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.rented-books {
+    padding: 20px;
+  }
+  
+  .rented-books h1 {
+    margin-bottom: 20px;
+  }
+  
+  .rented-books ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rented-books li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  

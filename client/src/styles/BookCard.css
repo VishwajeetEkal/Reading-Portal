@@ -1,0 +1,75 @@
+.book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    /* other styles */
+  }
+  
+  .book-image {
+    width: 100%; /* Set width to 100% of the parent */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .book-details {
+    padding: 5px 0;
+  }
+  
+  .book-date,
+  .book-price,
+  .book-title {
+    margin: 5px 0;
+  }
+  
+  /* Modal styles */
+  .book-modal {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Allows scrolling within the modal */
+  }
+  
+  .book-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px; /* Set a max-width for the modal */
+    position: relative;
+    overflow-y: auto; /* Allows scrolling within the modal content */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333; /* Adjust the color to match your app's theme */
+  }
+
+  .add-button:hover {
+    background-color: #5e51a8;
+  }
+
+  .add-container button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #1f25d5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }

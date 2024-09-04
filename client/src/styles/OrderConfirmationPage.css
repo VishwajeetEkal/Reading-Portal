@@ -1,0 +1,38 @@
+.order-confirmation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .order-summary {
+    background: #f8f8f8;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .order-items-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .order-item span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .order-total {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  

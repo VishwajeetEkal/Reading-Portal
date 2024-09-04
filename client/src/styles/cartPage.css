@@ -1,0 +1,79 @@
+/* Main container */
+.cart-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  /* Each cart item */
+  .cart-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .cart-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  /* Price and Days */
+  .cart-item p {
+    margin: 5px 0;
+  }
+  
+  /* Buttons for removing item and adjusting days */
+  .cart-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Total price section */
+  .cart-total {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .cart-total h4 {
+    margin: 0;
+  }
+
+  .checkout-button-container {
+    text-align: center; /* Center the button container */
+    margin-top: 20px; /* Add some space above the button */
+  }
+  
+  .checkout-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+  }
+  
+  .checkout-button:disabled {
+    background-color: #ccc; /* Gray background if button is disabled */
+    color: #666; /* Dark gray text if button is disabled */
+    cursor: not-allowed; /* Cursor to indicate the button is disabled */
+  }
+  
